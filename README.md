@@ -12,3 +12,13 @@ The current layout is german but it is easy to adjust to other languages.
 
 The clock is working for me, but might not be perfect in realization.
 Feel free to comment or correct me. I am looking forward to your input.
+
+#Used libraries
+- Adafruit_NeoPixel.h - connect WS2812B LED stripes
+- Adafruit_NeoMatrix.h - use LED stripe as matrix
+- Adafruit_GFX.h - draw lines and text on a matrix
+- DS3232RTC.h - Real time clock
+- Time.h - time functionality
+- Wire.h - I2C for RTC
+- DCF77.h - radio controlled clock
+- EEPROM.h - save configuration
